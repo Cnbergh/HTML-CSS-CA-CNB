@@ -1,8 +1,6 @@
 .body {
-    background-color: rgb(60, 149, 218);
-    
+    background-color: rgb(60, 149, 218);   
 }
-
 
 .container{
     background-color: black;
@@ -10,6 +8,7 @@
     flex-direction: row;
     justify-content: center;
     height: 100%;
+    align-items: center;
 }
 
 .one {
