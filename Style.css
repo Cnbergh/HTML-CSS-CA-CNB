@@ -1,0 +1,33 @@
+.body {
+    background-color: bisque;
+}
+
+
+.container{
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+
+}
+
+.one {
+
+background-color: beige;
+}
+
+.two {
+    background-color: antiquewhite;
+}
+
+
+.three {
+    background-color: blanchedalmond;
+}
+
+.item {
+    width: 400px;
+    height: 400px;
+
+}
