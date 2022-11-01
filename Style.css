@@ -27,5 +27,6 @@ background-color: rgb(33, 110, 33);
 .item {
     width: 400px;
     height: 400px;
+    margin: 10px; background-color: bisque;
 
 }
