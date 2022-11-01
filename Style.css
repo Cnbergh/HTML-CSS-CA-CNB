@@ -6,8 +6,15 @@ body {
     background-color: rgb(60, 149, 218);
     height: 100%;
 }
-
-.container{
+.h1 {
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+}
+.parent-container{
     background-color: black;
     display:flex;
     flex-direction: row;
@@ -17,7 +24,7 @@ body {
     margin: 10px;
 }
 
-.containertwo{
+.container{
     background-color: black;
     display:flex;
     flex-direction: row-reverse;
