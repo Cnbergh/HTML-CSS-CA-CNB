@@ -1,5 +1,7 @@
 .body {
-    background-color: rgb(60, 149, 218);   
+    background-color: rgb(60, 149, 218);
+    height: auto;
+    width: auto;
 }
 
 .container{
