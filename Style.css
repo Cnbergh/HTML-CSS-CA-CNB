@@ -1,8 +1,8 @@
-.html {
+html {
     height: 100%;
 }
 
-.body {
+body {
     background-color: rgb(60, 149, 218);
     height: 100%;
 }
