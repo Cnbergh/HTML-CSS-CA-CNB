@@ -12,6 +12,7 @@ h1 {
     flex-direction: row;
     justify-content: center;
     height: 100px;
+    width: 100%;
     align-items: center;
 }
 .parent-container{
