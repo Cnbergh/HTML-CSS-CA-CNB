@@ -1,6 +1,5 @@
 .body {
     background-color: bisque;
-    
 }
 
 
@@ -28,8 +27,4 @@ background-color: rgb(33, 110, 33);
     width: 400px;
     height: 400px;
     margin: 10px;
-}
-
-.margin {
-    background-color: bisque;
 }
