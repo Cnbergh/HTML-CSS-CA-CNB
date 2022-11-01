@@ -17,6 +17,17 @@ body {
     margin: 10px;
 }
 
+.containertwo{
+    background-color: black;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    height: 50%;
+    align-items: center;
+    margin: 10px;
+
+}
+
 .one {
 background-color: rgb(33, 110, 33);
 }
