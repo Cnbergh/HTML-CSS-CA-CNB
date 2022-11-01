@@ -1,7 +1,11 @@
-.body {
-    background-color: rgb(60, 149, 218);
+.html {
     height: 100%;
     width: 100%;
+}
+
+.body {
+    background-color: rgb(60, 149, 218);
+
 }
 
 .container{
