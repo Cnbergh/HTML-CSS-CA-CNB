@@ -18,7 +18,9 @@ body {
     grid-template-columns: auto auto;
 }
 Header {
-    display: flex;
+    background-color: bisque;
+    padding: 1rem;
+    grid-area: header;
     flex-direction: row;
     justify-content: center;
     height: 100px;
