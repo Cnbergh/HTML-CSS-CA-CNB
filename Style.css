@@ -9,13 +9,13 @@ body {
     padding: 0;
     margin: 0;
     height: 100%;
+    display: grid;
     grid-template-areas: 
     "myheader mynav"
     "mymain mynav"
     "mymain myfooter";
 }
-h1 {
-    background-color: bisque;
+Header {
     display: flex;
     flex-direction: row;
     justify-content: center;
