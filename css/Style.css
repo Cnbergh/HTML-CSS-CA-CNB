@@ -1,0 +1,115 @@
+html {
+    height: 100%;
+}
+html {
+    box-sizing: border-box;
+}
+   
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.header {
+    background-color: #ccc;
+    width: 100%;
+    min-height: 145px;
+    display: block;
+}
+
+.header-info{
+        display: flex;
+        justify-content: center;
+        min-height: 48px;
+        max-height: 80px;
+}
+
+.header-content_wrapper {
+    background: #fff;
+    width: 100%;
+    margin-bottom: 0;
+    position: relative;   
+}
+
+.header_content {
+    position: static;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_content {
+    width: 88%;
+    padding: 0 6%;
+    max-width: 1430px;
+    min-height: 100px;
+    max-height: 200px;
+    margin: 0 auto;
+}
+
+.header-content_left {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+}
+
+.header-logo {
+    padding: 6% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo{
+    display: block;
+    max-width: 181px;
+}
+
+nav {
+    align-self: flex-end;
+}
+
+nav>ul {
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+nav>ul, nav>ul>li {
+    display: inline-block;
+    padding: 6px 25px 10px;
+    height: auto;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative;
+}
+
+nav a:hover {
+    color: black;
+}
+nav>ul>li>a::before{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: black;
+    position: absolute;
+    bottom: -38px;
+    transition: all ease-in-out 250ms;
+}
+
+nav>ul>li>a:hover::before{
+    width: 100%;
+}
+
+.header-content__right {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+}
