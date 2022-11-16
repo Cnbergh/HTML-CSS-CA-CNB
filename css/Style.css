@@ -9,9 +9,12 @@ html:focus-within {
     scroll-behavior: smooth;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
 body {
     background-color: black;
     margin: 0;
+    font-family: "Bebas Neue", cursive;
 }
 
 .header {
@@ -19,6 +22,7 @@ body {
     width: 100%;
     min-height: 145px;
     display: block;
+    padding-bottom: 2px;
 }
 
 .header-info{
@@ -28,12 +32,13 @@ body {
     justify-content: center;
     min-height: 48px;
     max-height: 80px;
+    margin-bottom: 2px;
 }
 
 .header-content_wrapper {
     background: #fff;
     width: 100%;
-    margin-bottom: 0;
+    margin-bottom: 0px;
     position: relative;   
 }
 
@@ -88,7 +93,7 @@ nav>ul, nav>ul>li {
 nav>ul>li>a {
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 16px;
     position: relative;
 }
 
