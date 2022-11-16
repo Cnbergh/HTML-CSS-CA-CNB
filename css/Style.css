@@ -23,7 +23,7 @@ body {
 
 .header-info{
     color: #fff;
-    background-color: #000;
+    background-color:#2C2C2C;
     display: flex;
     justify-content: center;
     min-height: 48px;
