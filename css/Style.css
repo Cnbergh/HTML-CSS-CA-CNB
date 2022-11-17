@@ -1,9 +1,16 @@
 html {
     height: 100%;
 }
+
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
    
 html:focus-within {
     scroll-behavior: smooth;
@@ -11,14 +18,21 @@ html:focus-within {
 
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
+:root {
+    --colour-gray-background: #F5F5F5;
+    --colour-gray-dark: #2C2C2C;
+    --colour-black: #000000;
+    --colour-white: #FFFFFF;
+}
+
 body {
-    background-color: black;
+    background-color: var(--colour-black);
     margin: 0;
     font-family: "Bebas Neue", cursive;
 }
 
 .header {
-    background-color: #ccc;
+    background-color: var(--colour-gray-background);
     width: 100%;
     min-height: 145px;
     display: block;
@@ -26,8 +40,8 @@ body {
 }
 
 .header-info{
-    color: #fff;
-    background-color:#2C2C2C;
+    color: var(--colour-white);
+    background-color:var(--colour-gray-dark);
     display: flex;
     justify-content: center;
     min-height: 48px;
@@ -36,7 +50,7 @@ body {
 }
 
 .header-content_wrapper {
-    background: #fff;
+    background-color: var(--colour-white);
     width: 100%;
     margin-bottom: 0px;
     position: relative;   
@@ -91,6 +105,7 @@ nav>ul, nav>ul>li {
 }
 
 nav>ul>li>a {
+    color: var(--colour-gray-dark);
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
@@ -98,14 +113,14 @@ nav>ul>li>a {
 }
 
 nav a:hover {
-    color: black;
+    color: var(--colour-black);
 }
 nav>ul>li>a::before{
     content: '';
     display: block;
     height: 3px;
     width: 0%;
-    background-color: black;
+    background-color: var(--colour-gray-dark);
     position: absolute;
     bottom: -38px;
     transition: all ease-in-out 250ms;
@@ -124,6 +139,8 @@ nav>ul>li>a:hover::before{
 .content {
     width: 100%;
     padding: 0%;
+    margin: 0px;
+    background-color: var(--colour-gray-background);
 }
 
 .raw-content_fullwidth {
@@ -135,8 +152,29 @@ nav>ul>li>a:hover::before{
     display: grid;
     align-items: center;
     justify-content: center;
-    grid-template-columns: auto,1fr;
-    grid-template-rows: repeat(2,auto);
+    grid-template-columns: repeat(auto-fit,max(1440));
     gap: 2px;
+    grid-template-areas: auto;
     margin-bottom: 10px;
+}
+.grid-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.flex_center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-img {
+    max-width: 1440px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-area: auto;
 }
