@@ -1,7 +1,7 @@
 const jacketsContainer = document.querySelector(".product-list");
 
 for(var i=0; i < products.length; i++){
-    let productLink = <a href="product.html?id=${products[i].id}" class="cta cta-small">View</a>;
+    let productLink = '<a href="product.html?id=${products[i].id}" class="cta cta-small">View</a>;';
     if(products[i].sales === true){
         productLink = <a href="product.html?id=${products[i].id}" class="cta cta-small cta-sale">On Sale</a>;
     }
