@@ -239,8 +239,8 @@ nav>ul>li>a:hover::before{
     'opsz' 48
   }
 
-  .hero-women {
-    background-image: url("images\hero-womens.jpg");
+  #hero-women {
+    background-image: url("/images/hero-womens.jpg");
     height: 610px;
     width: 1730px;
     background-position: center;
@@ -250,7 +250,7 @@ nav>ul>li>a:hover::before{
   }
 
 .hero-img_learn-more{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.134), rgba(0, 0, 0, 0.26)), url("../images/hero-child&dad-rain.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.134), rgba(0, 0, 0, 0.26)), url("/images/hero-child&dad-rain.jpg");
     height: 653px;
     max-width: 1728px;
     background-position: center;
@@ -437,6 +437,11 @@ margin-left: 5px;
     letter-spacing: 0.12em;
 
 }
+.main-container {
+  background-color: var(--colour-white);
+  width: 100%;
+}
+
 
 .footer-info {
     background-color: var(--colour-gray-background);
