@@ -1,7 +1,7 @@
 .main-content_contact-page {
-    width: 100%;
-    background-color: var(--colour-white);
-    padding: 20;
+  width: 100%;
+  background-color: var(--colour-white);
+  padding: 20;
 }
 
 input,
@@ -13,16 +13,16 @@ textarea {
 }
 
 textarea {
-    height: 70%;
-    min-height: 100px;
-    min-width: 300px;
-    resize: vertical;
+  height: 70%;
+  min-height: 100px;
+  min-width: 300px;
+  resize: vertical;
 }
 
 .contact {
   max-width: 300px;
   margin: 0 auto;
-  text-align:left;
+  text-align: left;
   padding: 10px 0 20px;
 }
 
@@ -39,30 +39,30 @@ textarea {
   flex-direction: column;
 }
 .submit-button {
-    width: 300px;
-    max-width:  300px;
-    font-family: var(--ff-primary);
-    background-color: var(--colour-black);
-    color: var(--colour-white);
+  width: 300px;
+  max-width: 300px;
+  font-family: var(--ff-primary);
+  background-color: var(--colour-black);
+  color: var(--colour-white);
 }
 .main-content-header-nav {
-    width: 70%;
-    flex-direction:column;
-    display: flex;
-    padding: 30px 5px;
-    margin: 0 50px 0;
+  width: 70%;
+  flex-direction: column;
+  display: flex;
+  padding: 30px 5px;
+  margin: 0 50px 0;
 }
 .main-content-header-nav-font {
-    font-size: 14px;
-    line-height: 14px;
-    text-transform: capitalize;
-    font-family: "urw-din",arial,sans-serif;
-    text-decoration: underline;
-    text-shadow: none;
-    font-style: normal;
-    color: #000;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: capitalize;
+  font-family: "urw-din", arial, sans-serif;
+  text-decoration: underline;
+  text-shadow: none;
+  font-style: normal;
+  color: #000;
 }
 
 .main-content-header-font {
-    font-family: var(--ff-primary);
+  font-family: var(--ff-primary);
 }
