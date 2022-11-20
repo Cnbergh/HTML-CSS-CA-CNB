@@ -274,6 +274,36 @@ nav>ul>li>a:hover::before{
     color: var(--colour-gray-background);
     letter-spacing: 0.12em;
   }
+  .hero-img-wrapper {
+   overflow-wrap: break-word;
+  font-family: 'Bebas Neue';
+font-style: normal;
+font-size: 20px;
+line-height: 28px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+letter-spacing: 0.07em;
+max-width: 450px;
+  }
+
+.text-box {
+  background-color: var(--colour-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.wrapper-colum {
+  align-items: center;
+text-align: center;
+  flex-direction: column;
+  max-width: 420px;
+}
+
+
+
   .hero-button-center-top40 {
     top: 40%;
     left: 50%;
@@ -391,6 +421,23 @@ margin-right: 5px;
 }
 #item-02:nth-child(2) {
 margin-left: 5px;
+}
+
+.halv-widt {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+#Hero50left_contact {
+  display: block;
+background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("/images/Hero-vertical-contact-page50.jpg");
+max-width: 860px
+}
+
+#hero50rigth_contact {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/Hero-vertical-contact-page50-right.jpg");
+display: block;
+max-width: 860px
 }
 
 .row-content_half-width {
