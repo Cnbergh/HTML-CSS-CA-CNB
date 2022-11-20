@@ -6,7 +6,7 @@
 }
 
 .jackets .products {
-    animation: show-jackets 1s forwards;
+    animation: "show-jackets" 1s forwards;
     opacity: 0;
   }
 
