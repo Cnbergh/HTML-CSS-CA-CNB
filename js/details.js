@@ -1,5 +1,3 @@
-details.js: 
-
 const queryString=document.location.search;
 let url = new URL(document.location);
 let searchParams = new URLSearchParams(url.search);
