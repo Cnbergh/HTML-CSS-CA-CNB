@@ -249,6 +249,16 @@ nav>ul>li>a:hover::before{
     position: relative;
   }
 
+  #hero-men {
+  background-image: url("/images/hero-men.jpg");
+  height: 610px;
+    width: 1730px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
 .hero-img_learn-more{
     background-image: linear-gradient(rgba(0, 0, 0, 0.134), rgba(0, 0, 0, 0.26)), url("/images/hero-child&dad-rain.jpg");
     height: 653px;
