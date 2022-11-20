@@ -181,7 +181,7 @@
   
     .product-specific {
       flex-direction: row;
-      margin: 50px auto;
+      margin: 0px auto;
     }
   
     .product-specific__details {

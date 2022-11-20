@@ -76,15 +76,12 @@ letter-spacing: 0.075em;
 }
 
 
-h1 {
-
-}
-h2 {
+h1,
+h2,
+h3 {
  letter-spacing: 0.07em;
 }
-h3 {
 
-}
 p {
     margin: 3px;
 }
@@ -451,6 +448,7 @@ margin-left: 5px;
   display: block;
   background-color: var(--colour-white);
   width: 100%;
+  margin: 0 auto;
 }
 
 
@@ -621,3 +619,4 @@ margin-left: 5px;
 .featured h2 {
   grid-column: -1/1;
 }
+
