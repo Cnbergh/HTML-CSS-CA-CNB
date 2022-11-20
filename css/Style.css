@@ -222,6 +222,8 @@ nav>ul>li>a:hover::before{
 }
 
 .material-symbols-rounded {
+  color: var(--colour-gray-dark);
+  text-decoration: none;
   font-variation-settings:
   'FILL' 1,
   'wght' 700,
