@@ -1,8 +1,6 @@
 # HTML-CSS-CA-CNB
 
-
 HTML/CSS-CA-CNB
-
 
 ## Brief
 
@@ -28,7 +26,6 @@ The site needs to have every page (Scene) listed in the site architecture on you
 - You may use a build tool such as Vite, Parcel but not a framework like Gatsby or Next.js.
 - The project has been submitted on Moodle.
 
-
 ## MY Assignment
 
 <nav>
@@ -39,38 +36,30 @@ The site needs to have every page (Scene) listed in the site architecture on you
   <ul>
 <nav>
 
-
 ## My Summary
 
 Ovarl I'm happy for the outcome and how it went. Have alot to learn but the site is ready for more content and I had fun.
-My first close to real web-site. 
+My first close to real web-site.
 
-Went on the same mistake as last assignment, it takes longer time then what I expect and went on to play with javascript, as was not the assignment. 
-Did some motification on the master Breif (https://github.com/Noroff-Education/lesson-task-htmlcss-module4-lesson4) and made a script that worked for my site. 
+Went on the same mistake as last assignment, it takes longer time then what I expect and went on to play with javascript, as was not the assignment.
+Did some motification on the master Breif (https://github.com/Noroff-Education/lesson-task-htmlcss-module4-lesson4) and made a script that worked for my site.
 
-Did not see myself using hours on placement of small iteams, but that I did! 
+Did not see myself using hours on placement of small iteams, but that I did!
 Should have had more time.
 
 Need to be better on spotting when and were to use grid or flex-box. Did some motifications on the design, will come back to it and explain why.
-Good structure was not that easy, used alot of time and good practice to come up with a layout that suited for me. 
+Good structure was not that easy, used alot of time and good practice to come up with a layout that suited for me.
 
-As stated overal happy, should have had more time. 
-
-
+As stated overal happy, should have had more time.
 
 I desided to scratch the mobile version of my design and try to make the website responsive and with good flow on all sizes.
 Started to set it up for 320 and upwords.
 
-the plan was to set up a main grid and use flex-box in some of the grids. 
- - Still think the plan was ok, used alot of time researching and trying to learn how to use grid and flex-box better. 
- The website is not 100% complete. but it is ready for more content and layout starting to look good and works good on all sizes.
- 
+the plan was to set up a main grid and use flex-box in some of the grids.
+
+- Still think the plan was ok, used alot of time researching and trying to learn how to use grid and flex-box better.
+  The website is not 100% complete. but it is ready for more content and layout starting to look good and works good on all sizes.
+
 Would use images tag more next time for availability access and convenience instead of background images. Discovered that out to late.
 
-With more content I'm planing to make the menybar as my design. 
- 
-
-
-
-
-
+With more content I'm planing to make the menybar as my design.
