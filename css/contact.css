@@ -33,11 +33,12 @@ textarea {
   padding: 20px 0 20px;
 }
 
-.form-wrapper > * {
+.form-wrapper>* {
   flex: 1;
   display: flex;
   flex-direction: column;
 }
+
 .submit-button {
   width: 300px;
   max-width: 300px;
@@ -45,6 +46,7 @@ textarea {
   background-color: var(--colour-black);
   color: var(--colour-white);
 }
+
 .main-content-header-nav {
   width: 70%;
   flex-direction: column;
@@ -52,6 +54,7 @@ textarea {
   padding: 30px 5px;
   margin: 0 50px 0;
 }
+
 .main-content-header-nav-font {
   font-size: 14px;
   line-height: 14px;
