@@ -50,8 +50,28 @@
             </div>
             <div class="header-content_right">
               <div class="cart">
-                <a href="product.html" class="material-symbols-rounded">shopping_cart</a>
+                <button id="js-toggle-cart" class="material-symbols-rounded">shopping_cart <span
+                    class="cart-item-count"></span></button>
               </div>
+
+              <aside class="l-cart-section c-cart-section" id="js-cart-section">
+                <section class="l-cart-section_header">
+                  <h2>Shopping cart ( <span id="js-cart-total-items">0</span> )</h2>
+
+                  <button id="js-close-cart">Close</button>
+                </section>
+
+                <section id="js-cart-list" class="c-cart-list">
+                  <p>I don't like being out of stock</p>
+                </section>
+
+                <section class="l-cart-section_footer">
+                  <p>Total: <span id="js-cart-total-price">0</span></p>
+                  <a href="checkout.html" id="js-checkout" class="checkout-button">Checkout</a>
+                  <button id="js-clear-cart">Clear Cart</button>
+                </section>
+              </aside>
+
             </div>
           </div>
         </div>
@@ -67,7 +87,7 @@
           <h3>HAVE A QUESTION FOR OUR TEAM?</h3>
           <p>Our Customer Service Representatives are here to support you. Currently, our estimated response time is 2-3
             business days.</p>
-          <div class="form-wrapper">
+          <form id="contact-form" class="form-wrapper" action="#" method="POST">
             <section>
               <label for="topic">Topic</label>
               <select id="topic" name="topic">
@@ -78,15 +98,16 @@
                 <option value="company">Company</option>
               </select>
               <label for="lname">Last name</label>
-              <input type="text" id="name" name="name" />
+              <input type="text" id="lname" name="lname" />
               <label for="fname">First name</label>
-              <input type="text" id="name" name="name" />
+              <input type="text" id="fname" name="fname" />
               <label for="email">Email</label>
-              <input type="email" id="email" name="Email" />
-              <label for="email">Retype email address</label>
-              <input type="email" id="email" name="Email" />
+              <input type="email" id="email" name="email" />
+              <label for="email2">Retype email address</label>
+              <input type="email" id="email2" name="email2" />
               <label for="country">Country</label>
               <select id="country" name="country">
+
                 <option value="country none">--None--</option>
                 <option value="Afghanistan">Afghanistan</option>
                 <option value="Åland Islands">Åland Islands</option>
@@ -336,7 +357,7 @@
                 <option value="Zimbabwe">Zimbabwe</option>
               </select>
               <label for="phone">Enter your phone number:</label>
-              <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+              <input type="tel" id="phone" name="phone">
               <section>
                 <label for="question">Enter your question here:</label>
                 <textarea id="question" name="question"></textarea>
@@ -346,13 +367,15 @@
                 <label for="email-updates">I consent to receive marketing emails. Privacy policy</label>
               </div>
               <div>
-                <input type="checkbox" id="agree to the conditions" name="agree to the conditions" />
-                <label for="agree to the conditions">I agree to the conditions of the RainyDays Limited Warranty , or
-                  prior warranty if such warranty applies to me.</label>
+                <input type="checkbox" id="agree-to-conditions" name="agree-to-conditions" />
+                <label for="agree-to-conditions">I agree to the conditions of the RainyDays Limited Warranty, or prior
+                  warranty
+                  if such warranty applies to me.</label>
+              </div>
+              <div>
+                <input type="submit" value="Send Now" class="submit-button standard-button" />
               </div>
             </section>
-          </div>
-          <input type="submit" value="Send Now" class="submit-button standard-button" />
           </form>
         </main>
       </div>
@@ -384,6 +407,28 @@
       </div>
     </div>
   </div>
+
+  <div class="rainy-cloud-container">
+    <div class="rainy-cloud">
+      <div class="rain" id="rd1"></div>
+      <div class="rain" id="rd2"></div>
+      <div class="rain" id="rd3"></div>
+      <div class="rain" id="rd4"></div>
+      <div class="rain" id="rd5"></div>
+      <div class="rain" id="rd6"></div>
+      <div class="rain" id="rd7"></div>
+      <div class="rain" id="rd8"></div>
+      <div class="rain" id="rd9"></div>
+    </div>
+  </div>
+
+  <div class="modal" id="checkout-modal">
+    <div class="modal-content">
+      <p id="modal-message"></p>
+      <button id="modal-close">Close</button>
+    </div>
+  </div>
+  <script src="js/contactform.js"></script>
 </body>
 
 </html>

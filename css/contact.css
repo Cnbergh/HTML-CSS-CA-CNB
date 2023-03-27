@@ -45,6 +45,7 @@ textarea {
   font-family: var(--ff-primary);
   background-color: var(--colour-black);
   color: var(--colour-white);
+  text-align: center;
 }
 
 .main-content-header-nav {

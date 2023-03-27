@@ -49,8 +49,28 @@
             </div>
             <div class="header-content_right">
               <div class="cart">
-                <a href="product.html" class="material-symbols-rounded">shopping_cart</a>
+                <button id="js-toggle-cart" class="material-symbols-rounded">shopping_cart <span
+                    class="cart-item-count"></span></button>
               </div>
+
+              <aside class="l-cart-section c-cart-section" id="js-cart-section">
+                <section class="l-cart-section_header">
+                  <h2>Shopping cart ( <span id="js-cart-total-items">0</span> )</h2>
+
+                  <button id="js-close-cart">Close</button>
+                </section>
+
+                <section id="js-cart-list" class="c-cart-list">
+                  <p>I don't like being out of stock</p>
+                </section>
+
+                <section class="l-cart-section_footer">
+                  <p>Total: <span id="js-cart-total-price">0</span></p>
+                  <a href="checkout.html" id="js-checkout" class="checkout-button">Checkout</a>
+                  <button id="js-clear-cart">Clear Cart</button>
+                </section>
+              </aside>
+
             </div>
           </div>
         </div>
