@@ -6,7 +6,7 @@ const productId = searchParams.get("id");
 
 let products = [];
 
-const apiUrl = "https://coffeemeup.local/wp-json/wc/store/products";
+const apiUrl = "http://coffeemeup.local/wp-json/wc/store/products";
 
 async function fetchProducts() {
   try {
