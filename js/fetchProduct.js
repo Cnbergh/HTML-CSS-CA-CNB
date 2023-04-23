@@ -6,11 +6,13 @@ const productId = searchParams.get("id");
 
 let products = [];
 
-const apiUrl = "http://coffeemeup.local/wp-json/wc/store/products";
+/* const apiUrl = "https://coffeemeup.local/wp-json/wc/store/products"; */
 
 async function fetchProducts() {
   try {
-    const response = await fetch(apiUrl);
+    const response = await fetch(
+      "https://coffeemeup.local/wp-json/wc/store/products"
+    );
     const productsRaw = (await response.json()) || [];
 
     products = productsRaw.map((product) => {
