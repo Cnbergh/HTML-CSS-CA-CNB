@@ -208,7 +208,6 @@ nav>ul>li>a:hover::before {
   transition: all ease-in-out 500ms;
 }
 
-
 .header-content_right {
   display: flex;
   flex-direction: row;
@@ -232,7 +231,6 @@ nav>ul>li>a:hover::before {
     'GRAD' 0,
     'opsz' 48
 }
-
 
 .material-symbols-outlined {
   font-variation-settings:
@@ -314,8 +312,6 @@ nav>ul>li>a:hover::before {
   max-width: 420px;
 }
 
-
-
 .hero-button-center-top40 {
   top: 40%;
   left: 50%;
@@ -329,7 +325,6 @@ nav>ul>li>a:hover::before {
   min-height: 48px;
   min-width: 148px;
   max-width: 200px;
-  ;
   cursor: pointer;
   border: none;
   text-decoration: none;
@@ -512,7 +507,6 @@ nav>ul>li>a:hover::before {
   left: 50%;
   transform: translate(-50%, -50%);
   letter-spacing: 0.12em;
-
 }
 
 .main-container {
@@ -575,8 +569,6 @@ nav>ul>li>a:hover::before {
   border-top: 1px solid var(--colour-gray-light-dark);
   background-color: var(--colour-white);
 }
-
-
 
 .cta-sale {
   background-color: #127300;
@@ -804,7 +796,6 @@ nav>ul>li>a:hover::before {
   align-items: center;
 }
 
-
 .rainy-cloud-container {
   display: none;
   position: fixed;
@@ -936,7 +927,6 @@ nav>ul>li>a:hover::before {
     opacity: 0;
   }
 }
-
 
 .modal {
   display: none;
