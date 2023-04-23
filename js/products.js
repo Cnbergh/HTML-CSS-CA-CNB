@@ -1,4 +1,4 @@
-const products = [
+/* const products = [
   {
     name: "RainyDays Jacket",
     price: 425,
@@ -88,3 +88,4 @@ const products = [
     featured: false,
   },
 ];
+ */
