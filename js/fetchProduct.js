@@ -6,12 +6,12 @@ const productId = searchParams.get("id");
 
 let products = [];
 
-/* const apiUrl = "https://coffeemeup.local/wp-json/wc/store/products"; */
+/* const apiUrl = ""https://rainydays.flywheelsites.com//wp-json/wc/store/products"; */
 
 async function fetchProducts() {
   try {
     const response = await fetch(
-      "https://rainydays.flywheelsites.com//wp-json/wc/store/products"
+      "https://coffeemeup.local/wp-json/wc/store/products"
     );
     const productsRaw = (await response.json()) || [];
 
