@@ -11,7 +11,7 @@ let products = [];
 async function fetchProducts() {
   try {
     const response = await fetch(
-      "https://coffeemeup.local/wp-json/wc/store/products"
+      "https://rainydays.flywheelsites.com//wp-json/wc/store/products"
     );
     const productsRaw = (await response.json()) || [];
 
