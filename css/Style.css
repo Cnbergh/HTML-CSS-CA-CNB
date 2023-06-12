@@ -222,6 +222,16 @@ nav>ul>li>a:hover::before {
   padding-bottom: 6px;
 }
 
+.cart button {
+  background-color: transparent;
+  border: none;
+}
+
+.cart button:hover {
+  border: none;
+  background-color: transparent;
+}
+
 .material-symbols-rounded {
   color: var(--colour-gray-dark);
   text-decoration: none;
