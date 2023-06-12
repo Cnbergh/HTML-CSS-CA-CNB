@@ -225,6 +225,7 @@ nav>ul>li>a:hover::before {
 .cart button {
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 
 .cart button:hover {
